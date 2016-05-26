@@ -22,6 +22,7 @@ RUN /usr/local/bin/prepare.sh
 
 COPY apache2.conf /etc/apache2/
 COPY php.ini /etc/php5/apache2/php.ini
+COPY php.ini /etc/php5/cli/php.ini
 COPY mpm_prefork.conf /etc/apache2/mods-enabled/
 COPY site.conf /etc/apache2/sites-enabled/
 
