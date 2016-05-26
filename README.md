@@ -1,4 +1,6 @@
-# DRUPAL-DOCKER
+`docker pull dustise/lamp`
+
+# Docker image for LAMP
 
 Useable docker image, prepared for drupal.
 
