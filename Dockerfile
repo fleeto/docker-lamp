@@ -14,7 +14,8 @@ ENV DEBIAN_FRONTEND="noninteractive" \
   APACHE_MAXKEEPALIVEREQUESTS="100" \
   APACHE_KEEPALIVETIMEOUT="5" \
   APACHE_MAX_ACCESSLOG="500M" \
-  APACHE_MAX_ERRORLOG="50M" 
+  APACHE_MAX_ERRORLOG="50M" \
+  TIMEZONE="Asia/Shanghai"
 
 COPY prepare.sh /usr/local/bin
 COPY run.sh /usr/local/bin
