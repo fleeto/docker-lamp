@@ -44,6 +44,7 @@ Can be replaced through parameters of `docker run` command
 |`APACHE_KEEPALIVETIMEOUT`|"`5`"|
 |`APACHE_MAX_ACCESSLOG`|"`500M`"|
 |`APACHE_MAX_ERRORLOG`|"`50M`"|
+|`TIMEZONE`|`Asia/Shanghai`|
 
 ### Log file will be truncated
 
@@ -91,7 +92,7 @@ We can set max file size through the variables of error log (`APACHE_MAX_ERRORLO
 |`APACHE_KEEPALIVETIMEOUT`|"`5`"|
 |`APACHE_MAX_ACCESSLOG`|"`500M`"|
 |`APACHE_MAX_ERRORLOG`|"`50M`"|
-
+|`TIMEZONE`|`Asia/Shanghai`|
 ### 日志的自动截断
 
 保存在 `/web/logs` 中的日志，可以利用 `APACHE_MAX_ACCESSLOG` 和 `APACHE_MAX_ERRORLOG` 两个变量来调整最大文件尺寸，超出限制的日志将会被截断。
